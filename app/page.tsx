@@ -202,7 +202,7 @@ function HeroSection() {
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#1A2D75]/90 via-[#1A2D75]/70 to-[#2A4A9B]/80"></div>
       <Image
-        src="/images/hero-construction.jpg"
+        src="/webpage/images/hero-construction.jpg"
         alt="Professional construction work"
         fill
         className="object-cover mix-blend-overlay"
