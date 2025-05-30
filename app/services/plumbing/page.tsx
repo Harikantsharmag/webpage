@@ -99,7 +99,7 @@ export default function PlumbingPage() {
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
         <Image
-          src="/images/hero-plumbing.jpg"
+          src="/webpage/images/hero-plumbing.jpg"
           alt="Professional plumbing services"
           fill
           className="object-cover"
