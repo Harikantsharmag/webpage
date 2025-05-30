@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // <-- add this
+  output: 'export',
   images: {
-    domains: ['images.unsplash.com'], // your custom domains
+    domains: ['images.unsplash.com', 'cdn.example.com'], // ← include any image sources you're using
+    unoptimized: true, // ✅ Required for `output: 'export'` static builds
   },
 };
 
