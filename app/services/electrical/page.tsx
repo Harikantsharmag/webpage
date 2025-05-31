@@ -86,9 +86,6 @@ export default function ElectricalPage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-[#1A2D75] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">2W</span>
-              </div>
               <span className="font-bold text-xl text-[#1A2D75]">2WIN Group</span>
             </Link>
             <Link href="/#services">
@@ -261,7 +258,7 @@ export default function ElectricalPage() {
                     </Button>
                     <Button
                       className="w-full border-white bg-transparent text-white hover:bg-white hover:text-[#1A2D75]"
-                      onClick={() => window.open("mailto:info@2wingroup.ca")}
+                      onClick={() => window.open("mailto:2winontario@gmail.com")}
                     >
                       <Mail className="mr-2 h-4 w-4" />
                       Email Us
