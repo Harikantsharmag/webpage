@@ -81,9 +81,6 @@ export default function PlumbingPage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-[#1A2D75] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">2W</span>
-              </div>
               <span className="font-bold text-xl text-[#1A2D75]">2WIN Group</span>
             </Link>
             <Link href="/#services">
@@ -262,7 +259,7 @@ export default function PlumbingPage() {
                     </Button>
                     <Button
                       className="w-full border-white bg-transparent text-white hover:bg-white hover:text-[#1A2D75]"
-                      onClick={() => window.open("mailto:info@2wingroup.ca")}
+                      onClick={() => window.open("mailto:2winontario@gmail.com")}
                     >
                       <Mail className="mr-2 h-4 w-4" />
                       Email Us
@@ -370,7 +367,7 @@ export default function PlumbingPage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Fix Your Plumbing Issues?</h2>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Don&apos;t let plumbing problems disrupt your day. Contact our licensed professionals for fast, reliable
+              Don't let plumbing problems disrupt your day. Contact our licensed professionals for fast, reliable
               service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
