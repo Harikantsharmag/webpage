@@ -1,7 +1,5 @@
 const nextConfig = {
   output: 'export',
-  basePath: '/webpage',
-  assetPrefix: '/webpage',
   images: {
     domains: ['images.unsplash.com', 'cdn.example.com'],
     unoptimized: true,
