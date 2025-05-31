@@ -202,7 +202,7 @@ function HeroSection() {
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#1A2D75]/90 via-[#1A2D75]/70 to-[#2A4A9B]/80"></div>
       <Image
-        src="/webpage/images/hero-construction.jpg"
+        src="/images/hero-construction.jpg"
         alt="Professional construction work"
         fill
         className="object-cover mix-blend-overlay"
@@ -257,7 +257,7 @@ function AboutSection() {
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-[#1A2D75] to-[#F7941D] rounded-lg blur opacity-20"></div>
                 <Image
-                  src="/webpage/images/about-team.jpg"
+                  src="/images/about-team.jpg"
                   alt="2WIN professional construction team"
                   width={800}
                   height={600}
@@ -394,7 +394,7 @@ function ServicesSection() {
       title: "Plumbing",
       description:
         "From emergency repairs to full-system installations, our licensed plumbers handle everything with precision and compliance.",
-      image: "/webpage/images/service-plumbing.jpg",
+      image: "/images/service-plumbing.jpg",
       slug: "plumbing",
     },
     {
@@ -402,7 +402,7 @@ function ServicesSection() {
       title: "Backflows",
       description:
         "We provide certified backflow prevention and cross-connection control, fully compliant with Ontario regulations.",
-      image: "/webpage/images/service-backflows.jpg",
+      image: "/images/service-backflows.jpg",
       slug: "backflows",
     },
     {
@@ -410,7 +410,7 @@ function ServicesSection() {
       title: "Electrical",
       description:
         "Residential or commercial wiring, service upgrades, panel replacements, and certified inspections—done right and safely.",
-      image: "/webpage/images/service-electrical.jpg",
+      image: "/images/service-electrical.jpg",
       slug: "electrical",
     },
     {
@@ -418,7 +418,7 @@ function ServicesSection() {
       title: "Medical Gas",
       description:
         "Our experts handle medical gas systems according to CSA standards, ensuring hospital-grade safety and installation.",
-      image: "/webpage/images/service-medical-gas.jpg",
+      image: "/images/service-medical-gas.jpg",
       slug: "medical-gas",
     },
     {
@@ -426,7 +426,7 @@ function ServicesSection() {
       title: "Renovations",
       description:
         "From kitchens to full basement finishes, our renovation services are detail-focused and built to last.",
-      image: "/webpage/images/service-renovations.jpg",
+      image: "/images/service-renovations.jpg",
       slug: "renovations",
     },
     {
@@ -434,7 +434,7 @@ function ServicesSection() {
       title: "General Contracting",
       description:
         "Full project oversight, permits, trades, and safety compliance managed by licensed general contractors.",
-      image: "/webpage/images/service-general-contracting.jpg",
+      image: "/images/service-general-contracting.jpg",
       slug: "general-contracting",
     },
   ]
@@ -602,27 +602,27 @@ function GallerySection() {
 
   const galleryImages = [
     {
-      src: "/webpage/images/gallery-kitchen.jpg",
+      src: "/images/gallery-kitchen.jpg",
       title: "Modern Kitchen Renovation - Mississauga",
     },
     {
-      src: "/webpage/images/gallery-bathroom.jpg",
+      src: "/images/gallery-bathroom.jpg",
       title: "Luxury Bathroom Remodel - Toronto",
     },
     {
-      src: "/webpage/images/gallery-electrical-panel.jpg",
+      src: "/images/gallery-electrical-panel.jpg",
       title: "Electrical Panel Upgrade",
     },
     {
-      src: "/webpage/images/gallery-commercial-plumbing.jpg",
+      src: "/images/gallery-commercial-plumbing.jpg",
       title: "Commercial Plumbing Installation",
     },
     {
-      src: "/webpage/images/gallery-basement.jpg",
+      src: "/images/gallery-basement.jpg",
       title: "Basement Finishing Project",
     },
     {
-      src: "/webpage/images/gallery-office.jpg",
+      src: "/images/gallery-office.jpg",
       title: "Commercial Office Renovation",
     },
   ]
