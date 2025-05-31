@@ -104,7 +104,7 @@ export default function ElectricalPage() {
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
         <Image
-          src="/webpage/images/hero-electrical.jpg"
+          src="/images/hero-electrical.jpg"
           alt="Professional electrical services"
           fill
           className="object-cover"
