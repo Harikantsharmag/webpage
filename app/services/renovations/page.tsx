@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-import { useEffect } from 'react';
 
 import { motion } from "framer-motion"
 import Image from "next/image"
@@ -22,6 +21,7 @@ import {
   Zap,
   Home,
   Paintbrush,
+  ActivityIcon as useEffect,
 } from "lucide-react"
 
 const fadeUp = {
@@ -77,9 +77,6 @@ export default function RenovationsPage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-[#1A2D75] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">2W</span>
-              </div>
               <span className="font-bold text-xl text-[#1A2D75]">2WIN Group</span>
             </Link>
             <Link href="/#services">
@@ -147,7 +144,7 @@ export default function RenovationsPage() {
                   professionals brings your vision to life with quality craftsmanship and attention to detail.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  We understand that renovating your home or business is a significant investment. That&apos;s why we work
+                  We understand that renovating your home or business is a significant investment. That's why we work
                   closely with you throughout the entire process, from initial design to final walkthrough. Our goal is
                   to exceed your expectations and create spaces that are both beautiful and functional.
                 </p>
@@ -261,7 +258,7 @@ export default function RenovationsPage() {
                     </Button>
                     <Button
                       className="w-full border-white bg-transparent text-white hover:bg-white hover:text-[#1A2D75]"
-                      onClick={() => window.open("mailto:info@2wingroup.ca")}
+                      onClick={() => window.open("mailto:2winontario@gmail.com")}
                     >
                       <Mail className="mr-2 h-4 w-4" />
                       Email Us
