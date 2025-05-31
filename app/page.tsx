@@ -13,7 +13,6 @@ import { Badge } from "@/components/ui/badge"
 import {
   Phone,
   Mail,
-  MapPin,
   CheckCircle,
   ArrowRight,
   Menu,
@@ -26,6 +25,7 @@ import {
   Clock,
   Star,
   Award,
+  Paintbrush,
 } from "lucide-react"
 
 // Animation variants
@@ -93,9 +93,6 @@ function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-[#1A2D75] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">2W</span>
-            </div>
             <span className="font-bold text-xl text-[#1A2D75]">2WIN Group</span>
           </div>
 
@@ -437,6 +434,14 @@ function ServicesSection() {
       image: "/images/service-general-contracting.jpg",
       slug: "general-contracting",
     },
+    {
+      icon: <Paintbrush className="h-8 w-8" />,
+      title: "Commercial Painting",
+      description:
+        "Professional commercial painting services for offices, retail spaces, and industrial facilities. Quality finishes that last.",
+      image: "/images/service-commercial-painting.png",
+      slug: "commercial-painting",
+    },
   ]
 
   return (
@@ -740,17 +745,7 @@ function ContactSection() {
                     </div>
                     <div>
                       <p className="text-sm text-gray-500 font-medium">Email</p>
-                      <p className="text-lg text-gray-700">info@2wingroup.ca</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center space-x-4">
-                    <div className="p-3 bg-[#F7941D]/10 rounded-full">
-                      <MapPin className="h-6 w-6 text-[#F7941D]" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-gray-500 font-medium">Location</p>
-                      <p className="text-lg text-gray-700">Greater Toronto Area, Ontario</p>
+                      <p className="text-lg text-gray-700">2winontario@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -817,9 +812,6 @@ function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-[#F7941D] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">2W</span>
-              </div>
               <span className="font-bold text-xl">2WIN Group</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
@@ -861,6 +853,11 @@ function Footer() {
                   Backflow Prevention
                 </Link>
               </li>
+              <li>
+                <Link href="/services/commercial-painting" className="hover:text-white">
+                  Commercial Painting
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -873,11 +870,7 @@ function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@2wingroup.ca</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <MapPin className="h-4 w-4" />
-                <span>Greater Toronto Area, ON</span>
+                <span>2winontario@gmail.com</span>
               </div>
             </div>
           </div>
