@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   title: "2WIN Group - Licensed Construction & Plumbing Experts",
   description:
     "Professional construction, plumbing, electrical, and renovation services in the Greater Toronto Area. Licensed, insured, and certified.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
